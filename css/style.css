@@ -1,0 +1,399 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.header_main{
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.header_container{
+  width: 1178px;
+  margin: 0 auto;
+}
+.logo{
+  float: left;
+}
+.logo img{
+  height: 130px;
+}
+.right{
+  height: 50px;
+  width: 100%;
+  color: #4a0e0c;
+  padding-left: 800px;
+}
+.hrline{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.right img{
+  float: left;
+  padding-top: 20px;
+}
+.right p{
+  padding-top:30px;
+  padding-right: 20px;
+  padding-left: 10px;
+  float: left;
+}
+.rightbelow{
+  height: 60px;
+  padding-left: 900px;
+
+}
+.rightbelow p{
+  float: left;
+  padding-top: 10px;
+}
+.wrapper_contact{
+  float: right;
+}
+.wrapper_contact img{
+  float: left;
+  padding-top: 20px;
+}
+.wrapper_contact p{
+  float: left;
+  padding-top: 30px;
+  padding-left: 10px;
+  color: #4a0e0c;
+}
+.wrapper_social{
+  float: right;
+}
+.wrapper_social p{
+  float: left;
+}
+.wrapper_social ul{
+  overflow: hidden;
+}
+.wrapper_social li{
+  float: left;
+  list-style: none;
+}
+
+.nav{
+  background-color: #f26121;
+}
+.header_container_nav{
+  width: 800px;
+  margin: 0 auto;
+}
+.nav ul{
+  overflow: hidden;
+}
+.nav li{
+  float: left;
+  list-style: none;
+  background-color: #f26121;
+  width: 160px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.nav a{
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: lighter;
+}
+.nav li:hover{
+  background-color: grey;
+}
+.nav a:hover{
+  cursor: pointer;
+}
+
+.slideshow-container{
+  position: relative;
+  background-color: #f26121;
+}
+.slideshow-container img{
+  width: 100%;
+  max-height: 550px;
+  padding-bottom: 15px;
+
+}
+.mobile_pic{
+  display: none;
+}
+.pc_pic{
+  display: block;
+}
+
+.hero_text {
+  background-color: black;
+  opacity: 0.3;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  Left: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+.hero_text p {
+  font-size: 28px;
+  letter-spacing: 4px;
+  line-height: 32px;
+  font-weight: normal;
+  color: white;
+  opacity: 1;
+}
+
+.container_main{
+  width: 1178px;
+  margin: 0 auto;
+}
+.wrapper_welcome{
+  background-image: url(../images/welcome.jpg);
+  background-color: grey;
+  height: 680px;
+  position: relative;
+}
+.welcome_content{
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  Left: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper_welcome h2{
+  font-size: 48px;
+  font-weight: lighter;
+  color: black;
+  padding-bottom: 20px;
+}
+.wrapper_welcome h4{
+  font-size: 36px;
+  font-weight: lighter;
+  color: black;
+  padding-bottom: 20px;
+}
+.wrapper_welcome p{
+  font-size: 18px;
+  font-weight: lighter;
+  color: black;
+  line-height: 24px;
+}
+.wrapper_three{
+  width: 100%;
+  background-color: #f2f1f7;
+}
+
+.wwd_content{
+  width: 80%;
+  margin: 0 auto;
+}
+.wwd_content h2{
+  font-size: 48px;
+  padding-top: 100px;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 75px;
+}
+.wwd_content h4{
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 75px;
+}
+
+.wwd_content ul{
+  overflow: hidden;
+}
+.wwd_content img{
+  width: 100%;
+}
+.wwd_content li{
+  float: left;
+  width: 33.3%;
+  list-style: none;
+}
+
+.wwd_content li:nth-child(1){
+  text-align: right;
+}
+.wwd_content h5{
+  font-size: 22px;
+  padding-top: 70px;
+  font-weight: normal;
+}
+.wwd_content p{
+  font-size: 18px;
+  padding: 10px;
+  font-weight: lighter;
+}
+.wrapper_four{
+  background-image: url(../images/bg_two.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.data_four h3{
+  text-align: center;
+  font-size: 28px;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  line-height: 36px;
+}
+
+.data_brands h4{
+  font-size: 36px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.brands ul{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.brands li{
+  float: left;
+  list-style: none;
+  padding:1.7%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.brands li:hover{
+  background-color: #d3d8db;
+
+}
+
+.test_bg{
+  background-image: url(../images/test_bg.jpg);
+background-repeat: no-repeat;
+overflow: hidden;
+}
+
+.testionmial{
+  position: relative;
+}
+
+.testionmial img{
+  width: 70%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-left: 15%;
+  position: relative;
+  height: 400px;
+  text-align: center;
+}
+.test_data{
+  text-align: center;
+}
+.test_data h2{
+  font-size: 36px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.test_data img{
+  width: 75px;
+  height: 75px;
+  padding-left: 0px;
+}
+
+
+.test_data {
+  position: absolute;
+  top: 50%;
+  Left: 50%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+}
+
+.footer_main{
+  width: 100%;
+  background-color: #f26121;
+  height: 80px;
+}
+.footer_main h5{
+  color: white;
+  font-size: 18px;
+  float: left;
+  padding-top: 30px;
+  font-weight: normal;
+}
+.footer_main p{
+  color: white;
+  font-size: 16px;
+  padding-top: 30px;
+  float: right;
+}
+
+
+#smoothBtn{
+  display: none;
+}
+
+#smoothBtn{
+  display: block;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  filter: opacity(50%);
+}
+
+#smoothBtn:hover{
+  filter: opacity(100%);
+  cursor: pointer;
+
+}
+
+#smoothBtn img{
+  height: 40px;
+  width: 40px;
+  opacity: 0.6;
+}
+
+#smoothBtn button:hover{
+  opacity: 1;#smoothBtn{
+    display: none;
+  }
+
+  #smoothBtn{
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    filter: opacity(50%);
+  }
+
+  #smoothBtn:hover{
+    filter: opacity(100%);
+  }
+
+  #smoothBtn button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: orange;
+    opacity: 0.6;
+    color: white;
+    border-style: none;
+  }
+
+  #smoothBtn button:hover{
+    opacity: 1;
+    font-weight: bold;
+  }
